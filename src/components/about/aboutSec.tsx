@@ -7,8 +7,6 @@ import { useEffect, useRef } from 'react';
 gsap.registerPlugin(ScrollTrigger);
 
 export default function AboutPage() {
-  const tl = useRef<HTMLDivElement | null>(null);
-
   useEffect(() => {
     gsap.fromTo(
       '.aboutD1',
